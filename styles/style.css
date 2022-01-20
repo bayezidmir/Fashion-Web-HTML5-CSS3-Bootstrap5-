@@ -1,3 +1,6 @@
+header {
+  background: #fffbf0;
+}
 .custom-button {
   background: linear-gradient(180deg, #a4bc46 0%, #85a019 100%);
   border-radius: 10px;
@@ -10,4 +13,19 @@
 .img-fluid {
   background-color: #f1f1f1;
   padding: 0.8rem;
+}
+
+@media only screen and (max-width: 688px) {
+  .cs-sm {
+    flex-direction: column;
+  }
+
+  .text {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .section-title {
+    text-align: center;
+  }
 }
