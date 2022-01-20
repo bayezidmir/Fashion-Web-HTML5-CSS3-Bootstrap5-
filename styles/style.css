@@ -6,3 +6,8 @@
 .special-text {
   color: #fabe4c;
 }
+
+.img-fluid {
+  background-color: #f1f1f1;
+  padding: 0.8rem;
+}
